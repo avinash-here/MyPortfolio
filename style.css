@@ -1,0 +1,378 @@
+body{
+    background-color: rgb(204, 193, 193);
+    color: rgb(100, 100, 100);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#top{
+    /* border-bottom: 2px solid green; */
+    height: 100px;
+    width: 100%;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;   
+}
+
+#top, #navbar{
+    background-color: rgb(160, 157, 157);
+}
+#navbar{
+    width: 75%;
+    margin: 0;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
+}
+
+#icon{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(99, 99, 99);;
+    border: 2px solid white;
+    border-radius: 50%;  
+    /* font-weight: 500;   */
+    color: white;
+}
+
+#icon:hover{
+    cursor: pointer;
+    background-color: rgb(111, 111, 111);
+}
+
+#icon > p{
+    margin: auto;
+    font-size: 24px;
+}
+#icon > i{
+    margin: auto;
+    font-size: 32px;
+    color: white;
+}
+
+
+
+#nav_opt{
+    display: flex;
+    align-items: center;
+}
+
+#nav_opt p{
+    color: black;
+}
+
+#nav_opt > div{
+    /* border: 2px solid white; */
+    /* border-radius: 10px; */
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 50%;
+}
+
+#nav_opt > div:hover{
+    cursor: pointer;
+    /* font-weight: 600; */
+    /* background-color: rgb(2, 86, 2); */
+    border-bottom: 4px solid rgb(99, 99, 99);
+    
+}
+
+#about{
+    /* border: 2px solid green; */
+    /* height: 500px; */
+    width: 75%;
+    margin: auto;
+    margin-top: 140px;
+    display: flex;
+}
+
+
+#intro{
+    font-size:50px;
+    /* font-size: 320%; */
+    width: 52%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 'Times New Roman', Times, serif;
+    line-height: 20px;
+    font-weight: 600;
+    padding-left: 3%;
+    padding-top: 10px;
+}
+
+.brief{
+    border-left: 6px solid rgb(100, 100, 100);
+    padding-left: 2%;
+}
+
+.fa-solid{
+    font-size: 125%;
+}
+
+#photo{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#photo > div{
+    /* border: 2px solid white; */
+    width: 80%;    
+}
+
+#photo img{
+    /* border-bottom: 10px solid green; */
+    width: 100%;   
+    border-radius: 48%;
+}
+
+#resume{
+    border: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    color: white;
+    background-color: rgb(99, 99, 99);
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    margin-top: -10px;
+}
+
+#resume:hover{
+    cursor: pointer;
+    background-color: rgb(115, 115, 115);
+}
+
+
+
+#skills, #projects, #contacts , #education{
+    width: 75%;
+    /* padding-left: 3%; */
+    /* height: 200px; */
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 120px;
+    padding-bottom: 5%;
+}
+
+#education{
+    margin-top: 160px;
+}
+
+
+
+
+#masai, #graduation, #inter{
+    border: 1px solid rgb(160, 160, 160);
+    border-left: 10px solid rgb(120, 120, 120);
+    background-color: rgb(160, 157, 157);
+    width: 64%;
+    margin: auto;
+    display: flex;
+    margin-top: 28px;
+    border-radius: 6px;
+    
+}
+
+#education i{
+    font-size: 30px;
+}
+
+.heading{
+    border-bottom: 1px solid rgb(160, 160, 160);
+    text-align: center;
+    font-size: 44px;
+    line-height: 10px;
+    font-weight: 400;
+    /* color: white; */
+    /* margin-bottom: 60px; */
+}
+
+#types{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8%;    
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#types > div{
+    border: 1px solid rgb(199, 71, 71);
+    border-radius: 10px;
+    background-color: rgb(214, 212, 212);
+    text-align: center;
+    padding-bottom: 3%;    
+}
+
+#types > div > div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid rgb(199, 71, 71); */
+}
+
+#types .skillHead{
+    font-size: 32px;
+}
+
+
+#types i{
+    color: rgb(91, 91, 91);
+    font-size: 320%;
+    /* text-align: center; */
+}
+
+#types img{
+    width: 17%;
+    height: 90%;
+}
+
+#types .techs{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+
+
+#pro1, #pro2, #pro3{
+     /* border: 2px solid white; */
+     display: flex;
+}
+
+#pro1 > div, #pro2 > div, #pro3 > div{
+    width: 50%;
+}
+
+#pro1, #pro2, #pro3{
+    margin-top: 80px;
+}
+
+#pro1 img, #pro3 img{
+    width: 95%;
+    margin-left: 28px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#pro2 img{
+    width: 95%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    /* margin-left: -20px; */
+}
+
+.name{
+    font-size: 28px; 
+    font-weight: 500;
+    margin-left: 24px;
+    line-height: 10px;   
+}
+.name2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: 24px;
+    line-height: 10px;   
+}
+
+.name3{
+    font-size: 32px; 
+    font-weight: 500;
+    margin-left: 24px;
+    line-height: 10px;   
+}
+
+.line{
+    margin-left: 24px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.line2{
+    margin-right: 24px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.line3{
+    margin-left: 24px;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+#pro1 button, #pro2 button, #pro3 button{
+    border: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(99, 99, 99);
+    padding: 8px 16px 8px 16px;
+    border-radius: 5px;
+} 
+
+#pro1 button:hover, #pro2 button:hover, #pro3 button:hover{
+    cursor: pointer;
+    background-color: rgb(115, 115, 115);
+}
+
+#pro1 button, #pro3 button{
+    margin-left: 24px;
+}
+
+#pro2 button{
+    margin-right: 24px;
+}
+
+#contacts i{
+    /* color: rgb(126, 227, 126); */
+    font-size: 32px;
+    text-align: center;    
+    margin: auto;
+}
+
+#incont > div{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid white; */
+    width: max-content;
+    /* height: 20px; */
+    margin: auto;
+    margin-top: 20px;
+}
+
+#incont p, #incont p{
+    font-size: 20px;
+    color: rgb(67, 66, 66);
+    line-height: 0px;
+    margin-left: 10px;
+}
+
+#link:hover, #git:hover{
+    cursor: pointer;
+    
+}
+
+#link p:hover, #git p:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
