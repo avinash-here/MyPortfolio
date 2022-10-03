@@ -77,7 +77,7 @@ a{
 
 #nav_opt > div{
     /* border: 2px solid white; */
-    /* border-radius: 10px; */
+    /* border-radius: 4px; */
     margin-left: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -90,8 +90,8 @@ a{
 #nav_opt > div:hover{
     cursor: pointer;
     /* font-weight: 600; */
-    /* background-color: rgb(2, 86, 2); */
-    border-bottom: 4px solid rgb(99, 99, 99);
+    /* background-color: rgb(140, 140, 140); */
+    border-bottom: 3px solid rgb(80, 80, 80);
     
 }
 
