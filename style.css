@@ -12,7 +12,7 @@ a{
 
 #top{
     /* border-bottom: 2px solid green; */
-    height: 100px;
+    height: 80px;
     width: 100%;
     position: fixed;    
     top: 0;
@@ -37,8 +37,8 @@ a{
 }
 
 #icon{
-    height: 70px;
-    width: 70px;
+    height: 56px;
+    width: 56px;
     display: flex;
     align-items: center;
     background-color: rgb(99, 99, 99);
@@ -59,7 +59,7 @@ a{
 }
 #icon > i{
     margin: auto;
-    font-size: 32px;
+    font-size: 28px;
     color: white;
 }
 
@@ -73,6 +73,7 @@ a{
 
 #nav_opt p{
     color: black;
+    transition-duration: 500ms;
 }
 
 #nav_opt > div{
@@ -87,12 +88,13 @@ a{
     height: 50%;
 }
 
-#nav_opt > div:hover{
+#nav_opt > div > p:hover{
     cursor: pointer;
     /* font-weight: 600; */
     /* background-color: rgb(140, 140, 140); */
-    border-bottom: 3px solid rgb(80, 80, 80);
-    
+    /* border-bottom: 3px solid rgb(80, 80, 80); */
+    color: white;
+    /* text-decoration: underline; */
 }
 
 #about{
@@ -100,7 +102,7 @@ a{
     /* height: 500px; */
     width: 75%;
     margin: auto;
-    margin-top: 140px;
+    margin-top: 120px;
     display: flex;
 }
 
@@ -251,7 +253,7 @@ a{
 }
 
 #types .techs{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 1;
 }
